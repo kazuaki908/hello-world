@@ -132,6 +132,10 @@ color:
         max-width: 100%; /* 写真幅 */
     }
 
+    .pc {
+        display: none;
+    }
+
     main{
         margin-bottom:50px;
         padding-bottom: 50px;
@@ -164,6 +168,13 @@ color:
     }
 
     .subTitle {
+        background-image: url(../images/見出し背景画像.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
+
+    .subTitle-B {
         background-image: url(../images/見出し背景画像.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -429,8 +440,7 @@ color:
     }
 
     header{
-        max-width: 100%;
-        width: 1366px;
+        width: 100%;
         height: 768px;
         background: url(../images/PCヒーローフル台中画像.png) no-repeat right center/cover;
     }
@@ -440,6 +450,30 @@ color:
 
     }
 
+    h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        text-align: left;
+        margin-left: 15px;
+    }
+
+
+    main{
+        margin-bottom:50px;
+        padding-bottom: 50px;
+        margin:0 83px;
+        border-left: 1px solid #FF0000;
+        border-right: 1px solid #FF0000;
+        border-bottom: 1px solid #FF0000;
+    }
+
+
     .cityNameText {
         font-size: 20px;
         margin-right: 103px;
@@ -447,10 +481,114 @@ color:
         height: 96px;
     }
 
+    .mainContainer {
+        font-size: 20px;
+        margin:0 83px;
+
+    }
+
+    #taityuunAttrction {
+        display: inline;
+        width: 50%;
+    }
 
 
+    .subTitle {
+        background-image: url(../images/PC見出し背景画像.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-left: 15px;    
+        text-align: left;  
+        margin-bottom: 80px;  
+    }
+
+    .subTitle h2 {
+        margin-left: 110px;
+    }
+
+
+    .container-a {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px; /* Adjust spacing between sections if needed */
 
     }
 
 
+    .container-a .column {
+        width: 600px;
+        height: 360px;
+        margin-bottom: 40px;
+        margin-left: 15px;
+    }
 
+    .container-b {
+        display: flex;
+        margin-bottom: 100px; /* Adjust spacing between sections if needed */
+    }
+
+
+    .container-b .column {
+        width: 600px;
+        height: 144px;
+        margin-bottom: 50px;
+        margin-left: 15px;
+        object-fit: cover;
+    }  
+
+    
+    .attractionimg {
+        height: 360px;
+        width: 600px;
+        object-fit: cover;  
+    }
+
+    .sp {
+        display: none;
+    }
+    
+
+    #AttractionText {
+        font-size: 20px;
+    }
+
+    .pc {
+        display: block;
+        object-fit: cover;
+    }
+
+    /* .subTitle-B {  
+        background-image: url(../images/PC見出し背景画像.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        text-align: right;
+    } */
+
+    .MuseumTextPC {
+        width: 400px;
+        margin-left: -280px;
+        
+    }
+
+    #MuseumText {
+        width: 400px;
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 36px;
+    }
+
+    h6 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
