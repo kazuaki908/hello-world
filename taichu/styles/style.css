@@ -38,7 +38,7 @@ color:
 
     header{
         width:100%;
-        background: url(../images/ヒーローフル台中画像.png) no-repeat right center/cover;
+        background: url(../images/sp_taichu_full_haikei.png) no-repeat right center/cover;
         position:relative;
         padding-top: 4px;
     }
@@ -168,14 +168,21 @@ color:
     }
 
     .subTitle {
-        background-image: url(../images/見出し背景画像.png);
+        background-image: url(../images/tatle_haikei.png);
         background-repeat: no-repeat;
         background-position: center;
         text-align: center;
     }
 
     .subTitle-B {
-        background-image: url(../images/見出し背景画像.png);
+        background-image: url(../images/tatle_haikei.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    }
+
+    .subTitle-C {
+        background-image: url(../images/tatle_haikei.png);
         background-repeat: no-repeat;
         background-position: center;
         text-align: center;
@@ -257,8 +264,10 @@ color:
 
     h7 {
         display: flex;
-    justify-content: center;
-    font-size: 24px;
+        justify-content: center;
+        font-size: 24px;
+        margin-top: 30px;
+        margin-bottom: -15px;
     }
 
     .Sweets {
@@ -277,6 +286,11 @@ color:
     .Sweets p {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .Sweets-container p {
+        border-top: 1px solid #000000;
+        padding-top: 20px;
     }
 
     #sweets-subimg1 {
@@ -442,7 +456,7 @@ color:
     header{
         width: 100%;
         height: 768px;
-        background: url(../images/PCヒーローフル台中画像.png) no-repeat right center/cover;
+        background: url(../images/pc_taichu_full_haikei.png) no-repeat right center/cover;
     }
 
     .snsIcons {
@@ -494,7 +508,7 @@ color:
 
 
     .subTitle {
-        background-image: url(../images/PC見出し背景画像.png);
+        background-image: url(../images/pc_title_haikei.png);
         background-repeat: no-repeat;
         background-position: left;
         margin-left: 15px;    
@@ -509,8 +523,7 @@ color:
 
     .container-a {
         display: flex;
-        justify-content: space-between;
-        margin-bottom: 20px; /* Adjust spacing between sections if needed */
+        margin-bottom: 20px;
 
     }
 
@@ -553,8 +566,7 @@ color:
     }
 
     .pc {
-        display: block;
-        object-fit: cover;
+        display: inline;
     }
 
     /* .subTitle-B {  
@@ -565,9 +577,8 @@ color:
     } */
 
     .MuseumTextPC {
-        width: 400px;
-        margin-left: -280px;
-        
+        width: 420px;
+        margin-left: 20px;
     }
 
     #MuseumText {
@@ -586,9 +597,90 @@ color:
 
     .container {
         display: flex;
+        justify-content: start;
     }
 
     .column {
-        width: 100%;
+        width: 800px;
+        padding: 20px;
     }
+    
+
+    .column img {
+        max-width: 100%;
+        height: 270px; 
+        width: 530px;
+    }
+
+    #Museum-btn {
+        font-size: 20px;
+        width: 212px;
+        height: 76px;
+        padding-right: 30px;
+        padding-top: 17px;
+        margin-top: 20px;
+    }
+
+    .Museum {
+        margin-left: -420px;
+    }
+
+    .subTitle-C {
+        background-image: url(../images/pc_title_haikei.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        margin-left: 15px;    
+        text-align: left;  
+        margin-bottom: 80px;
+    } 
+
+    h7 {
+        font-size: 36px;
+    }
+
+
+    .Sweets {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Sweets-container {
+        margin-left: 75px;
+        width: 420px;
+        
+    }
+
+    .Sweets-container p {
+        font-size: 20px;   
+    }
+
+
+    .container-c {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .container-c .column p {
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    
+    
+    .column img {
+        max-width: 100%;
+        height: 346px;
+        width: 560px;
+    }
+
+    .sweets-subimg {
+        width: 600px;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+
 }
